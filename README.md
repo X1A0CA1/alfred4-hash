@@ -1,21 +1,19 @@
-Hash text for Alfred 2
+适配 Alfred 4 的哈希计算器 
 ============
 
-A simple Alfred 2 hash workflow's.
 
 
-Installation
+~~抄作业~~ 适配了 PHP8 并汉化
+
+安装
 ----------------
 
-- Download the workflow [directly](https://github.com/BigLuck/alfred2-hash/raw/master/Hash.alfredworkflow) or from [Packal](http://www.packal.org/workflow/hash).
-- Double click the downloaded "Hash.alfredworkflow" file to install.
-*Alfred 2 and Powerpack is required*
+- 下载 "[Hash.alfredworkflow](https://github.com/X1A0CA1/alfred4-hash/raw/master/hash.alfredworkflow)" 
+- 双击打开，并安装
 
 
-Instructions
+用法
 ----------------
-
-### String-based hashing
 
 - md5 `<string>`
 - sha1 `<string>`
@@ -27,17 +25,13 @@ Instructions
 - base64_decode `<string>`
 - base64_encode `<string>`
 
-![Test String](http://f.cl.ly/items/13460c0l1P2h2a2j1l2C/Screen%20Shot%202015-01-06%20at%209.24.04%20AM.png)
+![示例](./assets/md5.jpg)
 
-### File-based hashing
 
-You can get a hash from a file in 2 ways:
 
-* Navigate to the file in Alfred box then select the desired algorithm from the File Actions menu:
+### 文件 hash
 
-![File Action Menu](http://f.cl.ly/items/3T2T3M2D3k0h3M0d1L1e/Screen%20Shot%202015-01-06%20at%209.06.12%20AM.png)
-
-* Select the file in Finder, launch Alfred and type one of the following commands:
+* 先在 Fidder 中选中你需要计算 hash 的文件，然后输入以下命令其中之一：
 
   - md5f
   - sha1f
@@ -45,4 +39,4 @@ You can get a hash from a file in 2 ways:
   - sha512f
   - base64f
 
-![Finder Selection](http://f.cl.ly/items/000Z2s3n2q0Z3w0t3Q2x/hash.gif)
+
